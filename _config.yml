@@ -104,4 +104,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/ShuiZeGD/ShuiZeGD.git
-  branch: hexo_blog
+  branch: hexo_pages
