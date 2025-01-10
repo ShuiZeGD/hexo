@@ -104,4 +104,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/ShuiZeGD/ShuiZeGD.git
-  branch: gh-pages
+  branch: master
