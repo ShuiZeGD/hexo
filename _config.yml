@@ -9,11 +9,11 @@ description: 今日长缨在手，何时缚住苍龙。
 keywords:
 author: 闲步廖
 language: zh-CN
-timezone: Asia/Shanghai
+Itimezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://ShuiZeGD.github.io/ShuiZeGD
+url: http://ShuiZeGD.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
