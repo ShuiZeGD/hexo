@@ -61,9 +61,10 @@ social:
 # Image Settings
 # --------------------------------------
 
-# 网站图
+# 标签页上的小图
 favicon: /img/favicon.png
 
+# 头像
 avatar:
   img: /img/butterfly-icon.jpg
   effect: false
@@ -74,8 +75,8 @@ disable_top_img: false
 # If the banner of page not setting, it will show the default_top_img
 default_top_img:
 
-# The banner image of index page  主页封面图片
-index_img: /img/adc.png
+# The banner image of index page  主页封面图片,修改为透明，一图流。
+index_img: transparent
 
 # The banner image of archive page
 archive_img: /img/backup.jpg
@@ -97,10 +98,12 @@ category_img: /img/backup.jpg
 category_per_img: /img/backup.jpg
 
 # The background image of footer, footer背景，
-footer_img: true
+# footer_img: true
+footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
+background: /img/backGround.jpg
 
 
 cover:
@@ -152,8 +155,8 @@ post_meta:
 # default: top img - full screen, site info - middle
 # The position of site info, eg: 300px/300em/300rem/10%
 index_site_info_top:
-# The height of top_img, eg: 300px/300em/300rem
-index_top_img_height:
+# The height of top_img, eg: 300px/300em/300rem, 调整主页顶部高度
+index_top_img_height: 400px
 
 # The subtitle on homepage 副标题
 subtitle:
@@ -224,7 +227,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   text:
   QR_code:
     - img: /img/wechat.jpg
@@ -307,7 +310,7 @@ aside:
   # 公告栏目
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来到我的博客，希望对您有所帮助。
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -530,12 +533,12 @@ share:
   # https://github.com/overtrue/share.js
   sharejs:
     enable: true
-    sites: wechat,weibo,qq,github
+    sites: wechat,weibo,qq
 
   # AddToAny
   # https://www.addtoany.com/
   addtoany:
-    item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
+    item: wechat,email
 
 # --------------------------------------
 # Comments System
@@ -792,14 +795,14 @@ rounded_corners_ui: true
 # Stretches the lines so that each line has equal width
 text_align_justify: false
 
-# Add a mask to the header and footer
+# Add a mask to the header and footer, 移除顶部图的半透明罩
 mask:
-  header: true
-  footer: true
+  header: false
+  footer: false
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -1064,7 +1067,8 @@ css_prefix: true
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/modify.css">
+    - <link rel="stylesheet" href="/css/transpancy.css">
   bottom:
     # - <script src="xxxx"></script>
 
@@ -1151,4 +1155,4 @@ highlight_shrink: false # true: 代码块默认不展开 / false: 代码块默�
 highlight_height_limit: false # unit: px
 code_word_wrap: true #代码自动换行，关闭滚动条
 
-background: 
+
