@@ -62,11 +62,11 @@ social:
 # --------------------------------------
 
 # 标签页上的小图
-favicon: /img/favicon.png
+favicon: https://note.youdao.com/yws/api/personal/file/WEB698d0b81244f8dca2e8ebe73f8884bf9?method=download&shareKey=8bbecb63d386ce24aad03cd71022e30b
 
 # 头像
 avatar:
-  img: /img/butterfly-icon.jpg
+  img: https://note.youdao.com/yws/api/personal/file/WEB3ee00754d45b2ac24a847071752bef1c?method=download&shareKey=519e57a29a20a1a1c38a1960da798924
   effect: false
 
 # Disable all banner images
@@ -79,23 +79,23 @@ default_top_img:
 index_img: transparent
 
 # The banner image of archive page
-archive_img: /img/backup.jpg
+archive_img: https://note.youdao.com/yws/api/personal/file/WEBb3260a277abae9ba3efdf6300a454a2b?method=download&shareKey=594f7e7ef018a86528c3ce9860241b3d
 
 # Note: tag page, not tags page
-tag_img: /img/backup.jpg
+tag_img: https://note.youdao.com/yws/api/personal/file/WEB8123c0739731621cf9f00da0e95e7f32?method=download&shareKey=08673b22cb4acf7fc2deda551d2c8a06
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
 #  - tag name: xxxxx
-tag_per_img: /img/backup.jpg
+tag_per_img: https://telegraph-image-muf.pages.dev/file/AgACAgEAAxkDAAMDZ4agUdUywB7uO36_C7REKMkph5EAAk64MRt2MjBEHwoUwF5NAfABAAMCAAN3AAM2BA.jpg
 
 # Note: category page, not categories page
-category_img: /img/backup.jpg
+category_img: https://note.youdao.com/yws/api/personal/file/WEB8123c0739731621cf9f00da0e95e7f32?method=download&shareKey=08673b22cb4acf7fc2deda551d2c8a06
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
 #  - category name: xxxxx
-category_per_img: /img/backup.jpg
+category_per_img: https://note.youdao.com/yws/api/personal/file/WEB8123c0739731621cf9f00da0e95e7f32?method=download&shareKey=08673b22cb4acf7fc2deda551d2c8a06
 
 # The background image of footer, footer背景，
 # footer_img: true
@@ -103,7 +103,7 @@ footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
-background: /img/backGround.jpg
+background: https://note.youdao.com/yws/api/personal/file/WEBff15e194037555dceaab557313754923?method=download&shareKey=14931c79a05d999c57d0aeb5c5739e27
 
 
 cover:

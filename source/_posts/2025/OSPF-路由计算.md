@@ -33,7 +33,7 @@ categories:
       5. 如果 LSA age 不等于 3600, 则比较 LS age 的差值，  **差值大于900s, 则Ls age 小的最优**。 **差值小于 900s，则认为是一致。**
 
    4. `ospf trans-delay 300`  // 修改opsf 传输延迟，默认为1s
-   5. ![](/img/Datacome/OSPF-路由计算.png)
+   5. ![](https://note.youdao.com/yws/api/personal/file/WEBdf66ffcda2cfe2ef3595afb609a06e0e?method=download&shareKey=5816d00dbc49b73887018ccdcb1cfcd8)
 
 
 
