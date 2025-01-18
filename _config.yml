@@ -46,15 +46,22 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  enable: false
-  line_number: false
+  # 是否启用代码高亮功能。
+  enable: true
+  # 控制代码高亮时是否显示行号。
+  line_number: true
+  # 是否自动检测代码块的语言类型, 如果开启，就不要再代码块中标记了。
   auto_detect: false
+  # 用于替换代码中的制表符（Tab）
   tab_replace: ''
-  wrap: false
+  # 控制代码块是否自动换行。
+  wrap: true
+  # 指定是否使用 Highlight.js 库进行代码高亮。
   hljs: false
 prismjs:
-  preprocess: true
-  line_number: true
+  enable: false
+  preprocess: false
+  line_number: false
   tab_replace: ''
 
 # Home page setting

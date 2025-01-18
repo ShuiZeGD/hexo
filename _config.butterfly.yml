@@ -38,16 +38,23 @@ menu:
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
   theme: light
-  macStyle: false
+  # 控制代码块的顶部样式是否模拟 macOS 窗口样式（带红黄绿按钮的标题栏）。
+  macStyle: true
   # Code block height limit (unit: px)
+  # 限制代码块的最大高度，超出部分需要滚动查看。设置为 false，表示代码块高度不受限制。
   height_limit: false
-  word_wrap: false
+  # 控制代码是否自动换行。
+  word_wrap: true
 
   # Toolbar
+  # 是否显示代码块的“复制”按钮。
   copy: true
+  # 是否显示代码块使用的编程语言。
   language: true
   # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
+  # 控制代码块默认的展开或收缩状态
   shrink: false
+  # 是否允许代码块进入全屏显示模式。
   fullpage: false
 
 # Social media links
@@ -1145,14 +1152,5 @@ CDN:
     # valine:
     # waline_css:
     # waline_js:
-
-
-# 代码块内容
-highlight_theme: mac  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
-highlight_copy: true # 复制按钮
-highlight_lang: false # 是否显示代码语言
-highlight_shrink: false # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
-highlight_height_limit: false # unit: px
-code_word_wrap: true #代码自动换行，关闭滚动条
 
 
